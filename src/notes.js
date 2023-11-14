@@ -1,0 +1,4 @@
+const notes = [];
+
+export { notes };
+
