@@ -31,7 +31,7 @@ const addHandler = (request, h) => {
           message: 'fail to add data',
           data: null
      });
-     response.code(500);
+     response.code(400);
      return response;
 };
 
